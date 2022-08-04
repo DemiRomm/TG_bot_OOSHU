@@ -28,7 +28,7 @@ def get_wisdom(message):
     if message.text == 'мудрость' or message.text == 'Мудрость':
         bot.send_message(message.chat.id, random.choice(alone_wisdomes))
     else:
-        bot.send_message(message.chat.id, 'Похоже, Вы ошиблись адресом, здесь можно только обрести знание')
+        bot.send_message(message.chat.id, 'Похоже, Вы ошиблись адресом, здесь я делюсь философскими знаниями')
 
 
 bot.polling(none_stop = True)
