@@ -1,11 +1,11 @@
-# 5389008971:AAE4aS23O3iVE7_mfiARYJlyKi3HyuajZVg
+
 
 import telebot
 import requests
 from bs4 import BeautifulSoup as b
 import random
 
-token = '5389008971:AAE4aS23O3iVE7_mfiARYJlyKi3HyuajZVg'
+token = 'token'
 bot = telebot.TeleBot(token)
 
 url = 'https://citaty.info/topic/samorazvitie-i-samosovershenstvovanie?page=5'
